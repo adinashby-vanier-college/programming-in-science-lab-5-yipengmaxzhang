@@ -62,7 +62,7 @@ def centered_star_pyramid(n):
     i = 1
     while row <= n:
         result += " " * (n - row) + "*" * i + " " * (n - row)
-        if row == n
+        if row == n:
             break
         result += "\n"
         row += 1
