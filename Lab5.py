@@ -29,14 +29,15 @@ def number_pattern(n):
     result = ""
     row = 1
     numbers = 1
-    while row <= n:
-        while numbers <= row:
-            result += str(n - (n - numbers))
-            numbers += 1
+    while n == n
+        while row <= n:
+            while numbers <= row:
+                result += str(n - (n - numbers))
+                numbers += 1
             result += "\n"
             numbers = 1
             row += 1
-        return result.strip()
+            return result.strip()
         if n == n:
             break
 
@@ -44,11 +45,11 @@ def number_pattern(n):
 def sum_of_natural_numbers(n):
     result = ""
     count = 0
-    sum = 0
+    summation = 0
     while count < n:
-        sum += (n - count)
+        summation += (n - count)
         count += 1
-    result += str(sum)
+    result += str(summation)
     return result
 
 # Example for n = 4:
@@ -61,7 +62,7 @@ def centered_star_pyramid(n):
     row = 1
     i = 1
     while row <= n:
-        result += " " * (n - row) + "*" * i + " " * (n - row)
+        result += " " * (n - row) + "*" * i
         if row == n:
             break
         result += "\n"
