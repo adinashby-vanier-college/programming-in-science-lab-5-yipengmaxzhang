@@ -6,7 +6,6 @@
 # *****
 def hollow_square(n):
     result = ""
-    n = 8
     while n == n:
         result += "*" * n
         result += "\n"
@@ -28,7 +27,6 @@ def hollow_square(n):
 # 1234
 def number_pattern(n):
     result = ""
-    n = 5
     row = 1
     numbers = 1
     while row <= n:
@@ -45,7 +43,6 @@ def number_pattern(n):
 # Example: For n = 5, sum = 1 + 2 + 3 + 4 + 5 = 15
 def sum_of_natural_numbers(n):
     result = ""
-    n = 8
     count = 0
     sum = 0
     while count < n:
@@ -61,7 +58,6 @@ def sum_of_natural_numbers(n):
 # *******
 def centered_star_pyramid(n):
     result = ""
-    n = 4
     row = 1
     i = 1
     while row <= n:
