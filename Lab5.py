@@ -29,7 +29,7 @@ def number_pattern(n):
     result = ""
     row = 1
     numbers = 1
-    while n == n
+    while n == n:
         while row <= n:
             while numbers <= row:
                 result += str(n - (n - numbers))
@@ -37,7 +37,7 @@ def number_pattern(n):
             result += "\n"
             numbers = 1
             row += 1
-            return result.strip()
+        return result.strip()
         if n == n:
             break
 
@@ -50,7 +50,7 @@ def sum_of_natural_numbers(n):
         summation += (n - count)
         count += 1
     result += str(summation)
-    return result
+    return int(result)
 
 # Example for n = 4:
 #    *
